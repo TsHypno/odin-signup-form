@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url('./images/leaves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
+}
+
+.first {
+    height: 25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.second {
+    height: 30vh;
+    background-color: white;
+    align-items: center;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 20px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+label {
+    font-size: 10px;
+    color: #3b3b3c; 
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn-green {
+    background-color: #596d48;
+    color: white;
+    border: 1px solid #596d48;
+    border-radius: 5px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.third {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.hyperlink {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.login {
+    color: #596d48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a-footer {
+    color: white;
+}
+
+.p-footer {
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.forImage {
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.semi-transparent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.forFooter {
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
